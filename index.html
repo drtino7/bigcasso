@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+        <input type="text" id="textInput" style="display: none;">
+
+        <canvas id="work" width="1700" height="800"></canvas>       
+
+       <div class="tools">
+            <button onclick="removeLastElement()"><img src="src/rollback.png" alt="remove last element"></button>
+            <button onclick="setFigure('square')"><img src="src/square.png" alt="square"></button>
+            <button onclick="setFigure('circle')"><img src="src/circle.png" alt="circle"></button>
+            <button onclick="setFigure('triangle')"><img src="src/triangle.png" alt="triangle"></button>
+            <button onclick="setFigure('rectangle')"><img src="src/rectangle.png" alt="rectangle"></button>
+            <button onclick="setFigure('arrow')"><img src="src/arrow.png" alt="arrow"></button>
+            <button onclick="setTextMode()"><img src="src/letter.png" alt="text input"></button>
+            <button onclick="clearCanvas()"><img src="src/trash.png" alt="clear"></button>
+       </div>
+  </body>
+</html>
+
+<script src="main.js"></script>
